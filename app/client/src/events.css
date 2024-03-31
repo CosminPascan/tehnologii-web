@@ -1,0 +1,29 @@
+.event-form {
+    display: block;
+    height: 30vh;
+}
+
+.event-form div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.event-form label, .event-form button {
+    margin: 10px 50px;
+}
+
+.event-list {
+    height: 50vh;
+}
+
+.event-card {
+    height: 30vh;
+    width: 20vw;
+    font-size: 30px;
+    text-align: center;
+}
+
+.event-card:hover {
+    cursor: auto;
+}

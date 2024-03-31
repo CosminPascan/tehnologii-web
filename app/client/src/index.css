@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.title, .group-form, .group-list, .event-form, .event-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #161B22;
+}
+
+.group-list, .event-list {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.title {
+  height: 15vh;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.group-form, .event-form {
+  height: 15vh;
+}
+
+.group-form label, .group-form button {
+  margin: 20px
+}
+
+.group-form button, .event-form button {
+  background: #238636;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-width: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.group-form button:hover, .event-form button:hover {
+  background: #2aa242;
+}
+
+.group-list {
+  height: 65vh;
+}
+
+.group-card, .event-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #30363D;
+  height: 20vh;
+  width: 15vw;
+  margin: 20px;
+  border-radius: 20px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.group-card:hover, .event-card:hover {
+  background: #1F2327;
+  cursor: pointer;
+  box-shadow: 0 0 10px #8a2be2b3;
+}
+
+.delete-button {
+  position: absolute;
+  top: 2vh;
+  right: 2vh;
+  background: #EA5149;
+  color: white;
+  padding: 8px 13px;
+  border-radius: 10px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #e04038;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #30363D;
+  height: 5vh;
+}
